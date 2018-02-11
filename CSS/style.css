@@ -1,0 +1,862 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.clearfix:after {
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+section {
+    border-top: 1px solid transparent;
+}
+/*==============================header==============================*/
+
+header {
+    background: url(../image/fon.jpg) no-repeat center top / cover;
+    padding-bottom: 68px;
+}
+
+/*---------------Heading---------------*/
+.logoHeader {
+    margin-top: 16px;
+    float: left;
+}
+
+nav {
+   float: right;
+   margin-top: 35px;
+   font-size: 13pt;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    margin-left: 21px;
+    display: block;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Myriad Pro, sans-serif;
+}
+
+.menu .choise_nav:hover {
+    color: #4f79a7;
+}
+
+.menu .selectid_nav {
+    color: #00e0d0;
+}
+
+/*---------------Tittle---------------*/
+ .title {
+     font-size: 31pt;
+     color: #fff;
+     text-align: center;
+     margin-top: 160px;
+ }
+
+ .line_header {
+     width: 70px;
+     margin: 0 auto;
+     margin-top: 23px;
+ }
+
+ .line_header hr {
+     color: #00e0d0;
+ }
+
+.text_header {
+    margin-top: 27px;
+}
+
+ .text_header p {
+     font-family: Myriad Pro, sans-serif;
+     color: #fff;
+     font-size: 14pt;
+     text-align: center;
+     line-height: 28px;
+ }
+
+ /*---------------Button---------------*/
+ .button_header {
+     width: 190px;
+     padding: 20px 0;
+     margin: 0 auto;
+     border: 1.5px solid #00e0d0;
+     border-radius: 3px;
+     font-weight: bold;
+     font-size: 16pt;
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration: none;
+     display: block;
+     color: #00e0d0;
+     margin-top: 52px;
+ }
+
+.button_header:hover {
+    background-color: #7c7272;
+    opacity: 0.8;
+}
+
+/*---------------Choise_menu---------------*/
+ .choise_Menu {
+     padding: 0;
+     margin: 0;
+     display: block;
+ }
+
+.choise_Menu {
+
+    margin: 200px 0 68px 510px;
+}
+
+.choise_Menu ul{
+    display: table;
+}
+
+.choise_Menu li {
+    float:left;
+    display: block;
+    margin-left: 8px;
+}
+
+.choise_Menu div{
+     width: 15px;
+     height: 15px;
+     border: 1.5px solid #fff;
+     border-radius: 100px;
+ }
+
+.selectid_choiseMenu div{
+    background-color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.choise_Menu .Menu div:hover {
+    background-color: #4f79a7;
+    border-color: #4f79a7;
+}
+
+/*==============================selection1==============================*/
+
+#section1{
+    padding-bottom: 68px;
+}
+
+/*---------------Big logo---------------*/
+.BigLogo img {
+    float: left;
+    width: 328px;
+    height: 335px;
+    margin: 68px 0 0 66px;
+}
+
+/*---------------OurStory---------------*/
+.OurStory {
+    float: left;
+    margin: 66px 0 0 88px;
+}
+
+.text_OurStory {
+    font-size: 22pt;
+    color: #413d4b;
+    text-transform: uppercase;
+}
+
+.OurStory p{
+    font-size: 14pt;
+    font-family: Myriad Pro, sans-serif;
+    color: #8b8990;
+    line-height: 34px;
+}
+
+.button_OurStory{
+    width: 190px;
+    padding: 20px 0;
+    margin: 37px 0 0 0;
+    border: 1.5px solid #00e0d0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #00e0d0;
+}
+
+.button_OurStory:hover{
+    background-color: #7c7272;
+    opacity: 0.8;
+}
+
+/*==============================selection2==============================*/
+
+#section2{
+    background: url(../image/fon2.jpg) no-repeat center top/cover;
+    border-top: 1px solid transparent;
+    padding-bottom: 230px;
+}
+
+/*---------------Button play---------------*/
+.play{
+    margin: 0 auto;
+    display: table;
+    margin-top: 250px;
+    width: 120px;
+    height: 120px;
+}
+
+/*---------------Text---------------*/
+.watchOurStory{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 15pt;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*==============================selection3==============================*/
+
+#section3{
+    border-top: 1px solid transparent;
+    padding-bottom: 75px;
+}
+
+/*---------------TittleExpertise---------------*/
+.Tittle_expertise{
+    text-align: center;
+    font-family: Myriad Pro, sans-serif;
+    text-transform: uppercase;
+    font-size: 21pt;
+    margin-top: 73px;
+    color: #54505c;
+}
+
+.text_TittleExpertise{
+    text-align: center;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 13pt;
+    margin-top: 17px;
+    color: #8b888f;
+}
+
+.hr_TittleExpertise{
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+/*---------------Wall_instrument---------------*/
+
+.wall_instrument1{
+    margin-top: 20px;
+}
+
+.wall_instrument2{
+    border-top: 1px solid #ebebeb;
+}
+
+.block_instrument{
+    width: 400px;
+    height: 320px;
+    padding-top: 35px;
+}
+
+.block_instrument img{
+    height: 17%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.block_instrument .tittle_block_instrument{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: #413d4b;
+    font-family: Myriad Pro, sans-serif;
+}
+
+.block_instrument:first-child{
+    float: left;
+    border-right: 1px solid #ebebeb;
+}
+
+.block_instrument:nth-child(2){
+    float: left;
+    border-right: 1px solid #ebebeb;
+}
+
+.block_instrument:nth-child(3){
+    float: right;
+}
+
+.block_instrument .text_block_instrument{
+    text-align: center;
+    font-size: 14pt;
+    color: #7a7a7a;
+    margin-top: 26px;
+    line-height: 28px;
+
+}
+
+/*==============================selection4==============================*/
+
+#section4{
+     background: url(../image/fon3.jpg) no-repeat center top / cover;
+     padding-bottom: 80px;
+ }
+
+/*---------------Tittle_text---------------*/
+
+.tittle_selection4{
+    text-align: center;
+    margin-top: 85px;
+    color: #655b80;
+    text-transform: uppercase;
+    font-size: 22pt;
+}
+
+.text_selection4{
+    text-align: center;
+    margin-top: 17px;
+    color: #f9f9f9;
+    font-size: 17pt;
+}
+
+/*---------------wall_photo---------------*/
+
+.wall_photo{
+    margin-top: 60px;
+}
+
+.block_photo{
+    float: left;
+}
+
+.block_photo:last-child{
+    float: right;
+}
+
+.block_photo img{
+    width: 277.5px;
+    display: table;
+}
+
+.block_photo:nth-child(2){
+    margin-left: 30px;
+}
+
+.block_photo:nth-child(3){
+    margin-left: 30px;
+}
+
+.nameWorks_block_photo {
+    border: 1px solid #79778e;
+}
+
+.name_block_photo{
+    text-align: center;
+    font-size: 13pt;
+    text-transform: uppercase;
+    color: #e0dfe3;
+    margin-top: 20px;
+}
+
+.specialization_block_photo{
+    text-align: center;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: #c0c0c7;
+    margin: 10px 0 25px 0;
+}
+
+
+/*---------------wall_photo---------------*/
+
+
+
+
+.Become_part_section4{
+    margin-top: 80px;
+    font-size: 17pt;
+    text-align: center;
+    color: #b2b2ba;
+}
+
+
+
+
+.button_WeAreHiring{
+    width: 230px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1.5px solid #00e0d0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #00e0d0;
+}
+
+.button_WeAreHiring:hover{
+    background-color: #7c7272;
+    opacity: 0.8;
+}
+
+/*==============================selection5==============================*/
+
+#section5{
+    padding-bottom: 80px;
+}
+
+/*---------------Tittle_text---------------*/
+
+.tittle_section5{
+    margin-top: 80px;
+}
+
+.OurWorks_section5{
+    float: left;
+    text-transform: uppercase;
+    font-size: 22pt;
+    color: #6e6b75;
+}
+
+.text_SeeAll{
+    float:left;
+    font-size: 14pt;
+    color: #6e6b75;
+    margin-top: 5px;
+    margin-left: 782px;
+}
+
+.strelka_section5{
+    float: right;
+    height: 20px;
+    margin-top: 5px;
+}
+
+/*==============================selection6==============================*/
+
+#section6{
+    background: url(../image/fon4.jpg) no-repeat center top / cover;
+    height: 450px;
+}
+
+/*==============================selection7==============================*/
+
+#section7{
+   padding-bottom: 100px;
+}
+
+/*---------------Button---------------*/
+
+.button_LoadMore{
+    width: 220px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1.5px solid #00e0d0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #00e0d0;
+}
+
+.button_LoadMore:hover{
+    background-color: #7c7272;
+    opacity: 0.8;
+}
+
+/*==============================selection8==============================*/
+
+#section8{
+    background: url(../image/fon5.jpg) no-repeat center top / cover;
+    padding-bottom: 100px;
+}
+
+/*---------------Ковычки---------------*/
+
+.covichki_selection8{
+    height: 35px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/*---------------Текст---------------*/
+
+.text_selection8{
+    text-align: center;
+    font-family: Myriad Pro, sans-serif;
+    font-size: 18pt;
+    color: #e8e7ea;
+    margin-top: 50px;
+    line-height: 38px;
+}
+
+/*---------------name---------------*/
+
+.name_section8{
+    text-align: center;
+    color: #cfced4;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 70px;
+}
+
+.special_section8{
+    text-align: center;
+    color: #bbb9c3;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-top: 13px;
+}
+
+/*---------------меню фоток---------------*/
+
+.choisePhoto_selection8{
+    display: table;
+    margin: 120px 0 0 240px;
+}
+
+.choisePhoto_selection8 li{
+    float: left;
+    display: table;
+    margin-left: 25px;
+}
+
+.choisePhoto_selection8 a img{
+    height: 65px;
+}
+
+.strelka_choisePhoto{
+    margin: 10px 20px 0 20px;
+    height: 40px;
+}
+
+.choisePhoto_selection8 a img:hover{
+    opacity: 0.6;
+}
+
+/*==============================selection8==============================*/
+
+#section9{
+    padding-bottom: 80px;
+}
+
+/*---------------Текст---------------*/
+
+.tittle_section9{
+    margin-top: 72px;
+}
+
+.text_tittle{
+    float: left;
+    text-transform: uppercase;
+    font-size: 21pt;
+    color: #413d4b;
+}
+
+.margin_text_section9{
+    margin-left: 390px;
+}
+
+/*---------------Поля вводов и логотипы---------------*/
+
+.inputAndLogotips{
+    margin-top: 40px;
+}
+
+.inputName{
+    width: 600px;
+    height: 40px;
+}
+
+.input{
+    float: left;
+    width: 607px;
+}
+
+.input input{
+    margin-top: 20px;
+    border-color: #e5e5e5;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 13pt;
+}
+
+.input textarea{
+    margin-top: 20px;
+    width: 597px;
+    border-top: 2px solid #919191;
+    border-left: 2px solid #919191;
+    border-bottom: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 13pt;
+    resize: none;
+}
+
+.inputName:first-child{
+    margin: 0;
+}
+
+.inputName:last-child{
+    height: 220px;
+}
+
+.logotips{
+     float: right;
+}
+
+.group{
+    margin-top: 45px;
+}
+
+.group:first-child{
+    margin-top: 17px;
+}
+
+.logotip_logitips:first-child{
+    float: left;
+    margin-right: 180px;
+}
+
+.logotip_logitips:last-child{
+    float: right;
+}
+
+/*---------------Кнопка---------------*/
+
+.button_sumbit{
+    width: 220px;
+    padding: 20px 0;
+    margin-top: 20px;
+    border: 1.5px solid #00e0d0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #00e0d0;
+}
+
+.button_sumbit:hover{
+    background-color: #7c7272;
+    opacity: 0.8;
+}
+
+/*==============================footer==============================*/
+
+footer{
+   background: url(../image/fon6.jpg) no-repeat center top / cover;
+   padding-bottom: 74px;
+   border-top: 1px solid transparent;
+}
+
+/*---------------Первая строка---------------*/
+
+.str1_footer{
+    margin-top: 90px;
+}
+
+.str1_footer img{
+    float: left;
+}
+
+.str1_footer div{
+    margin-top: 15px;
+    float: left;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: #b2b1bc;
+    margin-left: 298px;
+}
+
+/*---------------блоки---------------*/
+
+.Blocks_footer{
+    margin-top: 30px;
+}
+
+.block_footer{
+    float: left;
+}
+
+.block_footer:nth-child(2){
+     margin-left: 25px;
+}
+
+.block_footer:nth-child(3){
+    margin-left: 30px;
+}
+
+.podblock{
+    float: left;
+}
+
+.podblock:nth-child(2){
+    margin-left: 15px;
+}
+
+.podBlock_footer:nth-child(2){
+    margin-top: 27px;
+
+}
+
+
+.text{
+    text-align: justify;
+    font-size: 14pt;
+    color: #dfdee2;
+    line-height: 34px;
+}
+
+.block_footer input{
+    background: none;
+    border: 1px solid #9d98af;
+    width: 220px;
+    height: 45px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Myriad Pro", sans-serif;
+    color: #d9d8de;
+}
+
+.button_gray{
+    background-color: #a099b4;
+    width: 85px;
+    height: 49px;
+    border: 1px solid #a099b4;
+    opacity: 0.6;
+}
+
+.button_gray:hover{
+    opacity: 1;
+}
+
+.button_gray img{
+    display: table;
+    margin: 0 auto;
+    margin-top: 7px;
+    height: 33px;
+}
+
+.podBlock_footer2 ul{
+    padding: 0;
+}
+
+.podBlock_footer2 li{
+    display: block;
+    float: left;
+}
+
+.podBlock_footer2 li div{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px solid #eeedf1;
+    margin-right: 8px;
+}
+
+.podBlock_footer2 li a div:hover{
+    background: #9490a1;
+}
+
+.podBlock_footer2 li div img{
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.podBlock_footer2{
+    margin: 0;
+}
+
+/*---------------помощь---------------*/
+
+.help_menu{
+    margin-top: 75px;
+}
+
+.footer_menu{
+    padding: 0;
+    float: left;
+}
+
+.footer_menu li{
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d5d4d9;
+    font-size: 14pt;
+}
+
+.footer_menu a:hover{
+    color: #4f79a7;
+}
+
+.help_menu div{
+    margin-top: 10px;
+    float: right;
+    font-size: 14pt;
+    color: #d5d4d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
